@@ -2,7 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 
 
-function generatePassword(
+console.log (generatePassword) {
   passwordLenth,
   includeSpecial,
   includeLowercase,
@@ -44,7 +44,7 @@ function generatePassword(
 
 }
 // Write password to the #password input
-function writePassword() {
+console.log (writePassword) {
       let passwordLenth =10;
       let includeSpecial=true;
       let includeLowercase=true;
