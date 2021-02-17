@@ -156,6 +156,11 @@ function writePassword() {
 // function resetText(){
 //   document.getElementById("password").value = "Your Secure Password";
 // }
-
+const copy = () => {
+  const copyText = document.querySelector("#password");
+  copyText.select();
+  document.execCommand("copy");
+  alert("Your password has been copied to the clipboard.");
+}
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
