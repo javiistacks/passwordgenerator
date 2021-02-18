@@ -23,7 +23,7 @@ function determineLength(){
       alert("Password length must be a number between 8-128 characters");
       determineLength();
     }else{
-    alert("The next three screens will ask you what types of characters you would like to be included in your password.\nIf you choose 'No' for all, your password will only contain lowercase letters.");
+    alert("The next four screens will ask you what types of characters you would like to be included in your password.\nIf you choose 'No' for all, your password will only contain lowercase letters.");
     }
     return passwordLength;
 }
@@ -53,6 +53,7 @@ function determineUppercase(){
 }
 
 // LOWER CASE BELOW EXTRAAAAAAAAA
+
 //Function used to determine whether the user wants to include lowercase characters in the password
 function determineLowercase(){
   lowercaseCheck = prompt("Do you want to include lowercase letters in your password? \n(Yes or No)");
@@ -77,16 +78,7 @@ function determineLowercase(){
     return lowercaseCheck;
 }
 
-
-
-
-
 // LOWER CASE ABOVER EXTRAAAAAAAA
-
-
-
-
-
 
 
 //Function used to determine whether the user wants to include numbers in the password
