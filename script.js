@@ -52,6 +52,43 @@ function determineUppercase(){
     return uppercaseCheck;
 }
 
+// LOWER CASE BELOW EXTRAAAAAAAAA
+//Function used to determine whether the user wants to include lowercase characters in the password
+function determineLowercase(){
+  lowercaseCheck = prompt("Do you want to include lowercase letters in your password? \n(Yes or No)");
+    lowercaseCheck = lowercaseCheck.toLowerCase();
+
+    if (lowercaseCheck === null || lowercaseCheck === ""){
+      alert("Please answer Yes or No");
+      determineLowercase();
+
+    }else if (lowercaseCheck === "yes" || lowercaseCheck ==="y"){
+      lowercaseCheck = true;
+      return lowercaseCheck;
+
+    }else if (lowercaseCheck === "no" || lowercaseCheck ==="n"){
+      lowercaseCheck = false;
+      return lowercaseCheck;
+    
+    }else {
+      alert("Please answer Yes or No");
+      determineLowercase();
+    }
+    return lowercaseCheck;
+}
+
+
+
+
+
+// LOWER CASE ABOVER EXTRAAAAAAAA
+
+
+
+
+
+
+
 //Function used to determine whether the user wants to include numbers in the password
 function determineNumbers(){
   numberCheck = prompt("Do you want to include numbers in your password? \n(Yes or No)");
@@ -105,10 +142,16 @@ function determineSpecial(){
 function generatePassword(){
   determineLength();
   console.log(passwordLength);
+  
   determineUppercase();
   console.log(uppercaseCheck);
+
+  determineLowercase();
+  console.log(lowercaseCheck);
+
   determineNumbers();
   console.log(numberCheck);
+
   determineSpecial();
   console.log(specialCheck);
 
