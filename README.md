@@ -7,13 +7,13 @@
 A. In the beginning the user is presented with the start screen where the user will click on "Generate Password".
 
 
-**after user clicks on "Generate Password"**
 <img src="ReadMeimages/userinputvalue.png" width="550" height="400" >
 
 
 B. Ask the user to choose between 8 to 128 characters for password length.
 
 C. User input value of desired number length for password.
+
 
 <img src="ReadMeimages/next4screens.png" width="550" height="400" >
 
@@ -46,7 +46,7 @@ J. User is prompted if they would like to inlude special characters in their pas
 
 K. Password is generated for user.
 
-**EXTRA copy button**
+
 
 <img src="ReadMeimages/Copy.png" width="550" height="400" >
 
