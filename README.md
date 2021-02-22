@@ -1,93 +1,61 @@
 # passwordgenerator
 # 03 JavaScript: Password Generator
 
-## Your Task
 
-This week’s homework requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+<img src="ReadMeimages/pgscreen.png" width="550" height="400" >
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+A. In the beginning the user is presented with the start screen where the user will click on "Generate Password" to begin choosing how complex they want thier password to be.
 
-## User Story
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+<img src="ReadMeimages/userinputvalue.png" width="550" height="400" >
 
-## Acceptance Criteria
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+B. User is Alerted with prompt screen to choose between 8 to 128 characters for password length.
 
-## Mock-Up
+C. User input value of desired number length for password.
 
-The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+<img src="ReadMeimages/next4screens.png" width="550" height="400" >
 
-## Grading Requirements
+E. User is Alerted with prompt screen, Educating them about the next four questions that they will be asked to determine their password strength.
 
-This homework is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+<img src="ReadMeimages/uppercaseYes.png" width="550" height="400" >
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+F. User is prompted if they would like to include uppercase letters in their password.
 
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
+<img src="ReadMeimages/lowercaseY.png" width="550" height="400" >
 
-### Deployment: 32%
+G. User is prompted if they would like to include lowercase letters in their password.
 
-* Application deployed at live URL.
+<img src="ReadMeimages/yesornoOnly.png" width="550" height="400" >
 
-* Application loads with no errors.
+H.  1. The user can only answer with YES, Yes, yes, Y,and y.
+    2. The user can only answer with NO, No, no, N, and n. 
+    3. If user asnwers with anything else not listed above, it will prompt user to choose yes or no only.
 
-* Application GitHub URL submitted.
+<img src="ReadMeimages/numbers.png" width="550" height="400" >
 
-* GitHub repository that contains application code.
+I. User is prompted if they would like to include numbers in their password.
 
-### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate.
+<img src="ReadMeimages/SpecialCharacter.png" width="550" height="400" >
 
-* Application user interface style is clean and polished.
+J. User is prompted if they would like to inlude special characters in their password.
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+<img src="ReadMeimages/FinishedProduct.png" width="550" height="400" >
 
-### Repository Quality: 13%
+K. Password is generated for user.
 
-* Repository has a unique name.
 
-* Repository follows best practices for file structure and naming conventions.
+<img src="ReadMeimages/Copy.png" width="550" height="400" >
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+L.  I added a Copy Button to make it a more user friendly. Which copies password to clipboard.
 
-* Repository contains multiple descriptive commit messages.
+--------------------------------------------------------------------------------------------------------------------------
 
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
+My Git hub profile : https://github.com/javiistacks
 
-## Review
+Git Hub repository: https://github.com/javiistacks/passwordgenerator
 
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Finished Product: https://javiistacks.github.io/passwordgenerator/
